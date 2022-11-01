@@ -1,14 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React Projject - Making of Calculator(Math Magician App)
+# React Project - Making of Calculator(Math Magician App)
 
 
-> The Javascript capstone project is about building a web application based on an external API.
-  The data of the webapp will be provided by the chosen API. 
-  The webapp will have a home page showing a list of items that can be "liked".
-  The webapp will contain a popup window with more data about an item which can be "commented".
-  The counters are made to count the numbers of "like" and "comments".
-  The tests are also incorporated for the counters.
+> The following features are incorporated inthe project :
+
+- The layout of a calculator is to be incorporated.
+- Git flow is used.
+- A directory called "components" is created.
+- Inside "components" a new "Calculator.js" file is created.
+- In "Calculator.js", a React component that matches the design of the Calculator is created.
+- Class-based components are created.
+
 
 
 ## Built With
@@ -21,7 +24,7 @@
 
 ## Getting Started
 
-To get the content of this project locally you need to run the following commands in your terminal.
+Started with create React App.
 
 ### Prerequisites
 
