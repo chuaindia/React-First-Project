@@ -21,12 +21,15 @@ class Calculator extends React.Component {
 
   render() {
     return (
-      <div id="calculator">
-        <div id="display-calculator" />
+      <>
+        <div id="calculator">
+          <div id="display-calculator" />
+          <input />
+        </div>
         <div id="calculator-buttons">
           <MakeArray />
         </div>
-      </div>
+      </>
     );
   }
 }
