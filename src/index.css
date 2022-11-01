@@ -1,0 +1,34 @@
+#calculator {
+  display: block;
+  max-width: 100%;
+  height: 60px;
+  background: gray;
+  margin: auto;
+  border: 2px solid black;
+}
+
+#calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.calc-btns {
+  background: lightgrey;
+  border: 1px solid black;
+  padding: 20px;
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.calc-btns:nth-child(17) {
+  grid-column: span 2;
+}
+
+.calc-btns:nth-child(4),
+.calc-btns:nth-child(8),
+.calc-btns:nth-child(12),
+.calc-btns:nth-child(16),
+.calc-btns:nth-child(19) {
+  background: orangered;
+}
