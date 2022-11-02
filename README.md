@@ -1,17 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React Project - Making of Calculator(Math Magician App)
+# React Project - Making of Calculator(Math Magician App) - Functioning of the Calculator Events
 
 
-> The following features are incorporated inthe project :
+> The following features are incorporated in this branch of the project :
 
-- The layout of a calculator is to be incorporated.
+- The layout of a calculator is incorporated.
 - Git flow is used.
-- A directory called "components" is created.
-- Inside "components" a new "Calculator.js" file is created.
-- In "Calculator.js", a React component that matches the design of the Calculator is created.
 - Class-based components are created.
-
+- The files "calculate.js" and "operate.js" is copied into a directory named "logic".
+- Inside "components" a new "Calculator.js" and "Calculator.css" file is created.
+- In "Calculator.js", a React component that matches the design of the Calculator is created.
+- The files "calculate.js" and "operate.js" will do the necessary mathematical operations ("big.js" is added as dependency).
+- The event handlers are implemented so that the math logic from "calculate.js" and "operate.js" work in the React component.
 
 
 ## Built With
