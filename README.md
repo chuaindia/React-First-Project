@@ -5,7 +5,7 @@
 
 > The following features are incorporated in this branch of the project :
 
-- Refactor The Calculator component (components/Calculator.js) from a class based component to a functional component with hooks is refactored.
+- The Calculator component from a class based component to a functional component with hooks is refactored.
 - This is implemented within the "Calculator.js" file in the "components" folder.
 - After the refactor is done, functionality of the Calculator is checked whether it is performing the actions as before or not.  
 
