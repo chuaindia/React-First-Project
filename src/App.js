@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 import Calculator from './components/Calculator';
 
-class App extends React.Component {
+class App extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {};
@@ -10,11 +10,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div>
+        <h1>CALCULATOR</h1>
         <Calculator />
       </div>
     );
   }
 }
-
 export default App;

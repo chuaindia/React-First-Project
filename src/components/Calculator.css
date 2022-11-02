@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mainframe {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar {
+  width: 93.1%;
+  height: 100%;
+  border: 2px solid black;
+  color: white;
+  padding: 10px;
+  text-align: right;
+  background: gray;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  border: 1px solid black;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+button:hover {
+  color: aqua;
+  background-color: black;
+}
+
+button:active {
+  background-color: grey;
+}
+
+.buttoncolor {
+  background: orangered;
+}
+
+.zero {
+  grid-column: 1/ span 2;
+}
