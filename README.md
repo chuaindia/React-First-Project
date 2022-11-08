@@ -1,19 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React Project - Making of Calculator(Math Magician App) - Functioning of the Calculator Events
+
+# React Project - Full Website for Math Magician App
+
 
 
 > The following features are incorporated in this branch of the project :
 
-- The layout of a calculator is incorporated.
-- Git flow is used.
-- Class-based components are created.
-- The files "calculate.js" and "operate.js" is copied into a directory named "logic".
-- Inside "components" a new "Calculator.js" and "Calculator.css" file is created.
-- In "Calculator.js", a React component that matches the design of the Calculator is created.
-- The files "calculate.js" and "operate.js" will do the necessary mathematical operations ("big.js" is added as dependency).
-- The event handlers are implemented so that the math logic from "calculate.js" and "operate.js" work in the React component.
-- A full website for the Math magicians app is created consists of different pages and using the components.  For every page, a route is created.
+- A full website for the Math magicians app is created consisting of different pages and using the components.  
+- The website consists of 3 pages: Home, Calculator, and Quote.
+- The general layout of these wireframes is followed.
+- React basic styling is used.
+- The navigation links for all 3 routes are displayed on each page.
+- For every page, a router is created.
+- Git flow is maintained.
+
 
 
 ## Built With
@@ -23,12 +24,12 @@
 - JavaScript
 - React
 - Gitflow
-
+- Router
 
 
 ## Getting Started
 
-Started with create React App.
+Create a repository repository. Clone it in local directory. Create React App. Create Branches properly to maintain Gitflow by making development branch and feature branch.Work according to the guideline.
 
 ### Prerequisites
 

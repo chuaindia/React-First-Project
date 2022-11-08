@@ -17,9 +17,9 @@ class App extends React.PureComponent {
       <Router>
         <NavigationBar />
         <Routes>
-          <Route exact path="src/components/pages/Home.js" element={<Home />} />
-          <Route path="/components/Calculator" element={<Calculator />} />
-          <Route path="src/components/pages/quote.js" element={<Quote />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="quote.js" element={<Quote />} />
         </Routes>
       </Router>
     );
