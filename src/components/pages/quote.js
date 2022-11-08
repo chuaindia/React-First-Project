@@ -2,6 +2,7 @@ import React from 'react';
 
 const Quote = () => (
   <>
+    <h1>Math Magician</h1>
     <p className="quote">
       Mathematics are the result of mysterious
       powers which no one understands, and which

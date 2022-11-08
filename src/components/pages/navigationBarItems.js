@@ -4,21 +4,27 @@ import styled from 'styled-components';
 
 export const Navigation = styled.nav`
 background: white;
+height: 85px;
 display: flex;
 justify-content: flex-end;
-padding-right: 20px;
+padding: 0.2rem calc((100vw - 1000px) / 2);
+z-index: 12;
 `;
 
 export const NavigationLink = styled(Link)`
 color: blue;
 display: flex;
+align-items: center;
+text-decoration: none;
 padding: 0 1rem;
-height: auto;
+height: 100%;
 cursor: pointer;
+&.active {
+  color: blue
+}
 `;
 
 export const Bars = styled(FaBars)`
-display: none;
 color: Black;
 @media screen and (max-width: 768px) {
 display: block;
@@ -26,7 +32,7 @@ position: absolute;
 top: 0;
 right: 0;
 transform: translate(-100%, 75%);
-font-size: 3rem;
+font-size: 1.8rem;
 cursor: pointer;
 }
 `;

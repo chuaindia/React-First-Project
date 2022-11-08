@@ -1,14 +1,9 @@
 h1 {
-  text-align: left;
+  margin: -70px 30px 0;
 }
 
 h2 {
   margin: 30px 30px;
-}
-
-h3 {
-  text-align: right;
-  margin: 0;
 }
 
 p {

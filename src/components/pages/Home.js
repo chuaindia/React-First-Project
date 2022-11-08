@@ -3,6 +3,9 @@ import './page.css';
 
 const Home = () => (
   <div>
+    <h1 className="PageTitle">
+      Math Magician
+    </h1>
     <h2 className="Welcome">
       Welcome to Our Page!
     </h2>

@@ -17,7 +17,8 @@ const Calculator = () => {
 
   const { total, next, operation } = state;
   return (
-    <div className="mainframe">
+    <div className="main-frame">
+      <h1>Math Magician</h1>
       <h2> Let us do some basic Mathematics Operation</h2>
       <div className="main">
         <div className="calculator">
@@ -58,7 +59,6 @@ const Calculator = () => {
         </div>
       </div>
     </div>
-
   );
 };
 
