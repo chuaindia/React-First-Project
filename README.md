@@ -1,6 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+
 # React Project - Full Website for Math Magician App
+
 
 
 > The following features are incorporated in this branch of the project :
@@ -12,6 +14,7 @@
 - The navigation links for all 3 routes are displayed on each page.
 - For every page, a router is created.
 - Git flow is maintained.
+
 
 
 ## Built With
