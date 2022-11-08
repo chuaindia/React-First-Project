@@ -5,13 +5,13 @@
 
 > The following features are incorporated in this branch of the project :
 
-- A full website for the Math magicians app is created consists of different pages and using the components.  
+- A full website for the Math magicians app is created consisting of different pages and using the components.  
 - The website consists of 3 pages: Home, Calculator, and Quote.
-- The general layout of these wireframes are followed.
+- The general layout of these wireframes is followed.
 - React basic styling is used.
 - The navigation links for all 3 routes are displayed on each page.
 - For every page, a router is created.
-- Git flow is used.
+- Git flow is maintained.
 
 
 ## Built With
