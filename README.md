@@ -13,11 +13,14 @@
 - In "Calculator.js", a React component that matches the design of the Calculator is created.
 - The files "calculate.js" and "operate.js" will do the necessary mathematical operations ("big.js" is added as dependency).
 - The event handlers are implemented so that the math logic from "calculate.js" and "operate.js" work in the React component.
+- A full website for the Math magicians app is created consists of different pages and using the components.  For every page, a route is created.
 
 
 ## Built With
 
-- HTML, CSS, JavaScript
+- HTML
+- CSS
+- JavaScript
 - React
 - Gitflow
 

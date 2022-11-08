@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+.mainframe h2 {
+  text-align: left;
+}
+
 .screen {
   width: 93.1%;
   height: 100%;
