@@ -29,7 +29,7 @@
 
 ## Getting Started
 
-Started with create React App.
+Create a repository repository. Clone it in local directory. Create React App. Create Branches properly to maintain Gitflow by making development branch and feature branch.Work according to the guideline.
 
 ### Prerequisites
 
