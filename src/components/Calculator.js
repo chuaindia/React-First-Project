@@ -19,7 +19,7 @@ const Calculator = () => {
   return (
     <div className="main-frame">
       <h1>Math Magician</h1>
-      <h2> Let us do some basic Mathematics Operation</h2>
+      <h2> Let us do some basic Mathematics Operations</h2>
       <div className="main">
         <div className="calculator">
           <div className="screen">
