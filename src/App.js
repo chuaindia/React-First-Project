@@ -1,6 +1,10 @@
 import React from 'react';
 import './index.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
+import Home from './components/pages/Home';
+import NavigationBar from './components/pages/navigationBar';
+import Quote from './components/pages/quote';
 
 class App extends React.PureComponent {
   constructor(props) {
@@ -10,10 +14,14 @@ class App extends React.PureComponent {
 
   render() {
     return (
-      <div>
-        <h1>CALCULATOR</h1>
-        <Calculator />
-      </div>
+      <Router>
+        <NavigationBar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="quote.js" element={<Quote />} />
+        </Routes>
+      </Router>
     );
   }
 }

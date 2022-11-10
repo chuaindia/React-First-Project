@@ -1,25 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React Project - Making of Calculator(Math Magician App) - Functioning of the Calculator Events - Implementing hooks
+
+# React Project - Full Website for Math Magician App
+
 
 
 > The following features are incorporated in this branch of the project :
 
-- The Calculator component from a class based component to a functional component with hooks is refactored.
-- This is implemented within the "Calculator.js" file in the "components" folder.
-- After the refactor is done, functionality of the Calculator is checked whether it is performing the actions as before or not.  
+- A full website for the Math magicians app is created consisting of different pages and using the components.  
+- The website consists of 3 pages: Home, Calculator, and Quote.
+- The general layout of these wireframes is followed.
+- React basic styling is used.
+- The navigation links for all 3 routes are displayed on each page.
+- For every page, a router is created.
+- Git flow is maintained.
+
+
 
 ## Built With
 
-- HTML, CSS, JavaScript
+- HTML
+- CSS
+- JavaScript
 - React
 - Gitflow
-
+- Router
 
 
 ## Getting Started
 
-Started with create React App.
+Create a repository repository. Clone it in local directory. Create React App. Create Branches properly to maintain Gitflow by making development branch and feature branch.Work according to the guideline.
 
 ### Prerequisites
 
