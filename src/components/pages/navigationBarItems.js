@@ -8,7 +8,7 @@ height: 85px;
 display: flex;
 justify-content: flex-end;
 padding: 0.2rem calc((100vw - 1000px) / 2);
-z-index: 12;
+z-index: 10;
 `;
 
 export const NavigationLink = styled(Link)`

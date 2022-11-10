@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It should render Navbar properly 1`] = `
+<nav
+  className="sc-bcXHqe iiwGbj"
+>
+  <div
+    className="sc-hLBbgP dMPSOX"
+  >
+    <a
+      activeStyle={true}
+      className="sc-gswNZR cumpAo"
+      href="/src/components/pages/Home.js"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      activeStyle={true}
+      className="sc-gswNZR cumpAo"
+      href="/components/Calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+    <a
+      activeStyle={true}
+      className="sc-gswNZR cumpAo"
+      href="/src/components/pages/quote.js"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </div>
+</nav>
+`;
