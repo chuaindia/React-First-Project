@@ -2,14 +2,14 @@
 
 exports[`It should render Navbar properly 1`] = `
 <nav
-  className="sc-bcXHqe iBArGn"
+  className="sc-bcXHqe iiwGbj"
 >
   <div
-    className="sc-hLBbgP kNEySP"
+    className="sc-hLBbgP dMPSOX"
   >
     <a
       activeStyle={true}
-      className="sc-gswNZR cMVdUT"
+      className="sc-gswNZR cumpAo"
       href="/src/components/pages/Home.js"
       onClick={[Function]}
     >
@@ -17,7 +17,7 @@ exports[`It should render Navbar properly 1`] = `
     </a>
     <a
       activeStyle={true}
-      className="sc-gswNZR cMVdUT"
+      className="sc-gswNZR cumpAo"
       href="/components/Calculator"
       onClick={[Function]}
     >
@@ -25,7 +25,7 @@ exports[`It should render Navbar properly 1`] = `
     </a>
     <a
       activeStyle={true}
-      className="sc-gswNZR cMVdUT"
+      className="sc-gswNZR cumpAo"
       href="/src/components/pages/quote.js"
       onClick={[Function]}
     >

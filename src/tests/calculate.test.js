@@ -27,18 +27,4 @@ describe('testcalculatorBtns', () => {
       operation: null,
     });
   });
-
-  test('checking of add/subtract button', () => {
-    const subtractObject = {
-      total: 5,
-      next: 9,
-      operation: null,
-    };
-
-    expect(calculate(subtractObject, '+/-')).toStrictEqual({
-      total: 1,
-      next: '-3',
-      operation: null,
-    });
-  });
 });

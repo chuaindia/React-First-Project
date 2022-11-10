@@ -18,6 +18,6 @@ describe('Calculator Operations', () => {
   });
 
   test('check 5 modulo 2 is equal to 2', () => {
-    expect(operate(5, 2, '%')).toBe('2');
+    expect(operate(5, 2, '%')).toBe('1');
   });
 });
